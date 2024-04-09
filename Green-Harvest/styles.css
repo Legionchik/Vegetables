@@ -1,0 +1,173 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.card.no-gap {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.vegetables {
+  background: #7a3145;
+}
+
+@media screen and (min-width: 768px) {
+  .vegetables-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.vegetables-box {
+  width: 320px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .vegetables-box {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .vegetables-box {
+    width: 1158px;
+  }
+}
+
+.vegetable-title {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+@media screen and (min-width: 768px) {
+  .vegetable-title {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .vegetable-title {
+    width: 626px;
+  }
+}
+
+.vegetables-description {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1158px) {
+  .vegetables-description {
+    width: 626px;
+  }
+}
+
+.vegetable-list {
+  display: flex;
+  /* flex-direction: row; */
+  /* gap: 24px; */
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .vegetable-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 28px;
+    row-gap: 20px;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+}
+
+.vegetable-item {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  /* width: calc((100% - 72px) / 4); */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 264px;
+
+  border-radius: 40px;
+  padding: 32px 26px;
+  width: 334px;
+  height: 379px;
+}
+
+.vegetables-name {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: #7a3145;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .vegetables-name {
+    font-size: 32px;
+  }
+}
+
+.veg-price {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
